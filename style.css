@@ -430,7 +430,6 @@ Filter
 #myTable {
     border-collapse: collapse;
     width: 100%;
-    border-radius: 16px;
     padding: 20px 20px;
     border: 1px solid #ddd;
     font-size: 10px;
