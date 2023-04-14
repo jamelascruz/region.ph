@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>REGION.PH</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" href="D:\Capstone\region/region_logo.png" type="image/x-icon">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footerstyle.css">
+    <link rel="stylesheet" href="boxstyle.css">
+    <link rel="stylesheet" href="carostyle.css" <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><a class="nav-link" href="index.html"><img
+                            src="https://region.ph/wp-content/uploads/2021/07/region_logowp.jpg" width="200px"></a></h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p><span id="time"></span></p>
+                <li>
+                   
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">News</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="phil.html">Philippines</a>
+                        </li>
+                        <li>
+                            <a href="world.html">World</a>
+                        </li>
+                        <li>
+                            <a href="entertainment.html">Entertainment</a>
+                        </li>
+                        <li>
+                            <a href="tech.html">Technology</a>
+                        </li>
+                        <li>
+                            <a href="business.html">Business</a>
+                        </li>
+                        <li>
+                            <a href="health.html">Health</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"
+                        class="dropdown-toggle">Regions</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="ncr.html">National Capital Region</a>
+                        </li>
+                        <li>
+                            <a href="car.html">Cordillera Administrative Region</a>
+                        </li>
+                        <li>
+                            <a href="region1.html">Region 1</a>
+                        </li>
+                        <li>
+                            <a href="region2.html">Region 2</a>
+                        </li>
+                        <li>
+                            <a href="region3.html">Region 3</a>
+                        </li>
+                        <li>
+                            <a href="region4a.html">Region 4-A</a>
+                        </li>
+                        <li>
+                            <a href="region4b.html">Region 4-B</a>
+                        </li>
+                        <li>
+                            <a href="region5.html">Region 5</a>
+                        </li>
+                        <li>
+                            <a href="region6.html">Region 6</a>
+                        </li>
+                        <li>
+                            <a href="region7.html">Region 7</a>
+                        </li>
+                        <li>
+                            <a href="region8.html">Region 8</a>
+                        </li>
+                        <li>
+                            <a href="region9.html">Region 9</a>
+                        </li>
+                        <li>
+                            <a href="region10.html">Region 10</a>
+                        </li>
+                        <li>
+                            <a href="region11.html">Region 11</a>
+                        </li>
+                        <li>
+                            <a href="region12.html">Region 12</a>
+                        </li>
+                        <li>
+                            <a href="region13.html">Region 13</a>
+                        </li>
+                        <li>
+                            <a href="barmm.html">Bangsamoro-BARMM</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="index.html" class="article">Back to home</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Page Content  -->
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn text-sidebar bg-white" style="padding: 13px;">
+                        <i class="fas fa-align-left" style="color:#339933; font-size: 20px;"></i>
+                        <span></span>
+                    </button>
+                    <button class="btn d-inline-block d-lg-none ml-auto text-sidebar bg-white" type="button"
+                    data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-right" style="color:#339933; font-size: 20px;"></i></i>
+                </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://agriportal.ph"><img
+                                        src="https://region.ph/wp-content/uploads/2021/08/agriportal_logowp-1.jpg"
+                                        height="80px"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://province.ph"><img
+                                        src="https://region.ph/wp-content/uploads/2021/08/province_logowp-1.jpg"
+                                        height="80px"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://harvests.ph"><img
+                                        src="https://region.ph/wp-content/uploads/2021/08/harvests_logowp-1.jpg"
+                                        height="80px"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <h1 class="home_sec">Philippines News</h1>
+         
+          
+            <section class="posts-listing">
+
+                <article class="post-item">
+                    <a class="post-item__inner" target="_blank" rel="noopener" 
+                        href="https://news.abs-cbn.com/news/02/16/23/rainy-weekend-in-parts-of-luzon-as-2-lpas-merge">
+
+                        <div class="post-item__thumbnail-wrapper">
+                            <div class="post-item__thumbnail" style="background-image:url(https://sa.kapamilya.com/absnews/abscbnnews/media/2023/news/02/16/20230216-lpa.jpg);"></div>
+                        </div>
+
+                        <div class="post-item__content-wrapper">
+                            <h2 class="post-item__title heading-size-4"><span>Philippines</span></h2>
+
+
+                            <div class="post-item__metas">
+                                <time class="post-item__meta post-item__meta--date"
+                                    datetime="2022-02-14T20:24:54+00:00">Posted at Feb 16 2023 02:23 PM
+                                </time>
+                                <p class="post-item__meta post-item__meta--category">ABS-CBN NEWS</p>
+                            </div>
+
+                            <div class="post-item_excerpt">
+                                Rainy weekend in parts of Luzon as 2 LPAs merge
+                            </div>
+
+                            <div class="post-item__read-more-wrapper">
+                                <p class="post-item__read-more">Read more</p>
+                            </div>
+
+                        </div>
+
+                    </a>
+                </article>
+                <article class="post-item">
+                    <a class="post-item__inner" target="_blank" rel="noopener" 
+                        href="https://www.gmanetwork.com/news/topstories/metro/860589/bike-lanes-on-ayala-avenue-makati-to-become-shared-lanes-starting-feb-15/story/">
+
+                        <div class="post-item__thumbnail-wrapper">
+                            <div class="post-item__thumbnail" style="background-image:url(http://images.gmanews.tv/webpics/2023/02/ubfoto_2023_02_13_08_20_37.jpg);"></div>
+                        </div>
+
+                        <div class="post-item__content-wrapper">
+                            <h2 class="post-item__title heading-size-4"><span>NEWS</span></h2>
+
+
+                            <div class="post-item__metas">
+                                <time class="post-item__meta post-item__meta--date"
+                                    datetime="2022-02-14T20:24:54+00:00">Published February 13, 2023 8:23am
+                                </time>
+                                <p class="post-item__meta post-item__meta--category">GMA NETWORK</p>
+                            </div>
+
+                            <div class="post-item_excerpt">
+                                Bike lanes on Ayala Avenue, Makati to become shared lanes starting Feb. 15
+                            </div>
+
+                            <div class="post-item__read-more-wrapper">
+                                <p class="post-item__read-more">Read more</p>
+                            </div>
+
+                        </div>
+
+                    </a>
+                </article>
+
+                <article class="post-item">
+                    <a class="post-item__inner" target="_blank" rel="noopener" 
+                        href="https://news.abs-cbn.com/news/02/13/23/ph-looking-for-ways-to-help-quake-hit-syria-marcos-jr">
+
+                        <div class="post-item__thumbnail-wrapper">
+                            <div class="post-item__thumbnail" style="background-image:url(https://sa.kapamilya.com/absnews/abscbnnews/media/2023/tvpatrol/02/09/hatay,-turkey.jpg);">
+                            </div>
+                        </div>
+
+                        <div class="post-item__content-wrapper">
+                            <h2 class="post-item__title heading-size-4"><span>NEWS
+                                </span>
+                            </h2>
+
+
+                            <div class="post-item__metas">
+                                <time class="post-item__meta post-item__meta--date"
+                                    datetime="2022-02-12T19:31:31+00:00">Posted at Feb 13 2023 02:39 PM</time>
+                                <p class="post-item__meta post-item__meta--category">ABS-CBN NEWS</p>
+                            </div>
+
+                            <div class="post-item_excerpt">
+                                PH looking for ways to help quake victims in Syria, says Marcos Jr.
+                            </div>
+
+                            <div class="post-item__read-more-wrapper">
+                                <p class="post-item__read-more">Read more</p>
+                            </div>
+
+                        </div>
+
+                    </a>
+                </article>
+
+                <article class="post-item">
+                    <a class="post-item__inner" target="_blank" rel="noopener" 
+                        href="https://www.washingtonpost.com/world/philippines-quake-causes-hospital-evacuation-minor-damage/2023/02/15/aa4f2afc-adb5-11ed-b0ba-9f4244c6e5da_story.html">
+
+                        <div class="post-item__thumbnail-wrapper">
+                            <div class="post-item__thumbnail" style="background-image:url();"></div>
+                        </div>
+
+                        <div class="post-item__content-wrapper">
+                            <h2 class="post-item__title heading-size-4"><span>News</span></h2>
+
+
+                            <div class="post-item__metas">
+                                <time class="post-item__meta post-item__meta--date"
+                                    datetime="2022-02-14T20:24:54+00:00">February 15, 2023 at 11:52 p.m
+                                </time>
+                                <p class="post-item__meta post-item__meta--category">THE WASHINGTON POST</p>
+                            </div>
+
+                            <div class="post-item_excerpt">
+                                Philippines quake causes hospital evacuation, minor damage
+                            </div>
+
+                            <div class="post-item__read-more-wrapper">
+                                <p class="post-item__read-more">Read more</p>
+                            </div>
+
+                        </div>
+
+                    </a>
+                </article>
+                <article class="post-item">
+                    <a class="post-item__inner" target="_blank" rel="noopener" 
+                        href="https://www.rappler.com/nation/gloria-arroyo-other-lawmakers-urge-house-defend-rodrigo-duterte-vs-icc/">
+
+                        <div class="post-item__thumbnail-wrapper">
+                            <div class="post-item__thumbnail" style="background-image:url(https://www.rappler.com/tachyon/2022/06/duterte-arroyo-june-13-2022-003-scaled.jpg?resize=2560%2C1707&zoom=1);"></div>
+                        </div>
+
+                        <div class="post-item__content-wrapper">
+                            <h2 class="post-item__title heading-size-4"><span>Philippines</span></h2>
+
+
+                            <div class="post-item__metas">
+                                <time class="post-item__meta post-item__meta--date"
+                                    datetime="2022-02-14T20:24:54+00:00">FEB 16, 2023 1:44 PM
+                                </time>
+                                <p class="post-item__meta post-item__meta--category">Rappler</p>
+                            </div>
+
+                            <div class="post-item_excerpt">
+                                Gloria Arroyo, 18 other lawmakers urge House to ‘defend’ Duterte vs ICC
+                            </div>
+
+                            <div class="post-item__read-more-wrapper">
+                                <p class="post-item__read-more">Read more</p>
+                            </div>
+
+                        </div>
+
+                    </a>
+                </article>
+               
+                <article class="post-item">
+                    <a class="post-item__inner" target="_blank" rel="noopener" 
+                        href="">
+
+                        <div class="post-item__thumbnail-wrapper">
+                            <div class="post-item__thumbnail" style="background-image:url();"></div>
+                        </div>
+
+                        <div class="post-item__content-wrapper">
+                            <h2 class="post-item__title heading-size-4"><span></span></h2>
+
+
+                            <div class="post-item__metas">
+                                <time class="post-item__meta post-item__meta--date"
+                                    datetime="2022-02-14T20:24:54+00:00">
+                                </time>
+                                <p class="post-item__meta post-item__meta--category"></p>
+                            </div>
+
+                            <div class="post-item_excerpt">
+                                
+                            </div>
+
+                            <div class="post-item__read-more-wrapper">
+                                <p class="post-item__read-more">Read more</p>
+                            </div>
+
+                        </div>
+
+                    </a>
+                </article>
+                <article class="post-item">
+                    <a class="post-item__inner" target="_blank" rel="noopener" 
+                        href="">
+
+                        <div class="post-item__thumbnail-wrapper">
+                            <div class="post-item__thumbnail" style="background-image:url();"></div>
+                        </div>
+
+                        <div class="post-item__content-wrapper">
+                            <h2 class="post-item__title heading-size-4"><span></span></h2>
+
+
+                            <div class="post-item__metas">
+                                <time class="post-item__meta post-item__meta--date"
+                                    datetime="2022-02-14T20:24:54+00:00">
+                                </time>
+                                <p class="post-item__meta post-item__meta--category"></p>
+                            </div>
+
+                            <div class="post-item_excerpt">
+                                
+                            </div>
+
+                            <div class="post-item__read-more-wrapper">
+                                <p class="post-item__read-more">Read more</p>
+                            </div>
+
+                        </div>
+
+                    </a>
+                </article>
+                <article class="post-item">
+                    <a class="post-item__inner" target="_blank" rel="noopener" 
+                        href="">
+
+                        <div class="post-item__thumbnail-wrapper">
+                            <div class="post-item__thumbnail" style="background-image:url();"></div>
+                        </div>
+
+                        <div class="post-item__content-wrapper">
+                            <h2 class="post-item__title heading-size-4"><span></span></h2>
+
+
+                            <div class="post-item__metas">
+                                <time class="post-item__meta post-item__meta--date"
+                                    datetime="2022-02-14T20:24:54+00:00">
+                                </time>
+                                <p class="post-item__meta post-item__meta--category"></p>
+                            </div>
+
+                            <div class="post-item_excerpt">
+                                
+                            </div>
+
+                            <div class="post-item__read-more-wrapper">
+                                <p class="post-item__read-more">Read more</p>
+                            </div>
+
+                        </div>
+
+                    </a>
+                </article>
+                <article class="post-item">
+                    <a class="post-item__inner" target="_blank" rel="noopener" 
+                        href="">
+
+                        <div class="post-item__thumbnail-wrapper">
+                            <div class="post-item__thumbnail" style="background-image:url();"></div>
+                        </div>
+
+                        <div class="post-item__content-wrapper">
+                            <h2 class="post-item__title heading-size-4"><span></span></h2>
+
+
+                            <div class="post-item__metas">
+                                <time class="post-item__meta post-item__meta--date"
+                                    datetime="2022-02-14T20:24:54+00:00">
+                                </time>
+                                <p class="post-item__meta post-item__meta--category"></p>
+                            </div>
+
+                            <div class="post-item_excerpt">
+                                
+                            </div>
+
+                            <div class="post-item__read-more-wrapper">
+                                <p class="post-item__read-more">Read more</p>
+                            </div>
+
+                        </div>
+
+                    </a>
+                </article>
+
+
+
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-3 mb-5">
+                    <img src="https://region.ph/wp-content/uploads/2021/07/managed_by.png" height="40px">
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-3 mb-5">
+                    <p> We welcome volunteers to share information about their region.</p>
+                </div>
+                <div class="col-md-3">
+                        <p>Interested volunteers may email: webmaster@agriportal.ph</p>
+                    </div>
+                
+            
+                <div class="col-md-3 mb-5">
+                    <h2>Our social media</h2>
+                    <ul class="list-unstyled footer-link d-flex footer-social">
+                        <li><a href="https://www.facebook.com/agriportal.ph/" target="_blank" rel="noopener"><span class="bi bi-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/agriportal.ph/" target="_blank" rel="noopener" ><span class="bi bi-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/agri-portal-ph-b14b78238/" target="_blank" rel="noopener"><span class="bi bi-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/agriportalph" target="_blank" rel="noopener"><span class="bi bi-twitter"></i></a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <p> Privacy Policy & Terms of Use
+                        Copyright 2021, All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(".carousel").swipe({
+
+            swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+
+                if (direction == 'left') $(this).carousel('next');
+                if (direction == 'right') $(this).carousel('prev');
+
+            },
+            allowPageScroll: "vertical"
+
+        });
+    </script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
